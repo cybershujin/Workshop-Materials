@@ -45,7 +45,9 @@ Part 3: GenAI Applications for Cybersecurity - GenAI and LLM use cases, the good
 
 Prerequisites for this workshop are in two sections: the **knowledge** that will help you make the most of the workshop and the **technical preparation** for participating in the hands-on-section of the workshop.
 
-For the technical preparation In this workshop you have the choice to either **Download Anaconda and Jupyter Lab** or you can follow along using the **Cloud Hosted Options** for using the notebooks and models. 
+For the technical preparation In this workshop you have the choice to either **Download Anaconda and Jupyter Lab** or you can follow along using the **Cloud Hosted Options** for using the notebooks and models.  
+
+We do cover HuggingFace in this workshop. Realize that you with need either to have completed the **Download** preparation steps *or* have a Google Cloud or Amazing Cloud account to deploy the model to in that step if you wish to follow along. These accounts are involved setups, and it is *highly* recommended to do this in advance if you wish to follow along.
 
 While the instructors recommend that you do the **Download** method, as it will allow you to build familiarity with tools you will use through your Machine Learning and AI journey and allow you to use data without putting that data in a cloud service, we provide instructions for both here. The Download method also allows you to easily take advantage of many of the github projects and Juypter Notebook referenced as part of this workshop. 
 
@@ -61,11 +63,15 @@ My recommendations for a quick refresh on these topics if you need them:
 
 [CodeAcademy's Free Python3 Course](https://try.codecademy.com/learn-python-3) - I am a fan of CodeAcademy generally, I find the subscription worth it. You will find many AI / ML concepts in this platform from BeautifulSoup (important for web scraping to acquire data), to NumPy and Matploitlib courses. 
 
+[AI Python for Beginners - DeepLearning.AI](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/) - this instructor is great and teaches a number of machine learning concepts, the site itself is a wonderful resource for the beginner!
+
 [CodeCombat](https://codecombat.com/) - This is my **absolute** favorite way to learn coding, and they recently added some AI Learning levels as well! This is a game, that is like a RPG game that is incredibly fun and practical way to learn Python, C++ or basic AI skills.
 
 [YouTube - Descriptive Statistics]([Descriptive Statistics: FULL Tutorial - Mean, Median, Mode, Variance & SD (With Examples)](https://www.youtube.com/watch?v=SplCk-t1BeA)) - mean, median, mode and standard deviations. This is helpful to understand because these concepts are often how we explore data and try to understand "normal" in order to better identify **data anomalies** which is very important to cybersecurity use cases
 
 [YouTube - Linear and Logistic Regression]([Linear Regression vs Logistic Regression | Data Science Training | Edureka](https://www.youtube.com/watch?v=OCwZyYH14uw)) - these are the most implemented use cases in machine learning for cybersecurity applications, because they are based on a use case where you want to **predict or classify.**
+
+Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
 
 #### Technical Prep
 
@@ -73,7 +79,11 @@ My recommendations for a quick refresh on these topics if you need them:
 
 First download this folder and save to your desktop.
 
-2. Get Anaconda. You can do this two ways - download and install Anaconda https://www.anaconda.com/download (preferred, this is what the instructor will use and what the instructions in the ) or use the Anaconda cloud: https://nb.anaconda.cloud/
+Sign up for a Kaggle Account. https://www.kaggle.com/ you will need this in order to follow along with the some of the model exploration parts of the class.
+
+Download the nslkdd data set for the Network Instrusion (Anomaly Detection) exercise from [NSL-KDD](https://www.kaggle.com/datasets/hassan06/nslkdd) and make sure it is in the same saved in the same workshop folder. (This becomes important when you open Juypter Lab)
+
+Get Anaconda. You can do this two ways - download and install Anaconda https://www.anaconda.com/download 
 
 If you choose to download Anaconda follow these steps for install setup on a Windows Machine:
 
@@ -128,12 +138,124 @@ First download this folder and save to your desktop.
 Three steps for cloud hosting, which we recommend you do ALL of these to make sure you can use all of them.
 
 1. For Anaconda Cloud you go to https://nb.anaconda.cloud/ and create an account. Then go to the green circle on the left hand side “Anaconda Toolbox” and Create a New Project. This will allow you to select the files from the workshop folder from your desktop, and leave the environment location as default.
+
+   Quick link [Anaconda Cloud](https://anaconda.cloud/code-in-the-cloud)
+
 2. Google Colab - Use a google account and make sure you can access https://colab.research.google.com/ you can test this is working properly by visiting [Image classification from scratch](https://keras.io/examples/vision/image_classification_from_scratch/) and clicking the "View in Colab" just under the model description details. If you are able to click the Play button that appears once your cursor is in the code box under "Setup" then you are successfully prepared to use this resource.
+
 3. Go to kaggle.com and sign up for an account / sign in with a google account or similar identity provider. Once you have completed that, go to this link [network_intrusion_detection](https://www.kaggle.com/code/orestasdulinskas/network-intrusion-detection) and hit the "Copy & Edit" button in the upper right of the screen and make sure the environment opens.  If you are able to click the Play button that appears once your cursor is in the code box under "Data Cleaning" then you are successfully prepared to use this resource. Note, that this is a large data set you are importing, it will "Spin" a minute before you see an output in a table below it.
+
+4. If you wish to follow along with the HuggingFace instruction have a Google Cloud or Amazing Cloud account to deploy the model to in that step if you wish to follow along. Go to [Huggingface.co](https://huggingface.co) and sign up for an account. You will know you have met the prerequisites for this if you can go to [ehsanaghaei/SecureBERT · Hugging Face](https://huggingface.co/ehsanaghaei/SecureBERT) and click "Deploy" and select your platform.
+
+   
 
 ## Resources and References
 
-Basic ML and Deep Learning Concepts
+**Network Intrusion** **Model Used in the Workshop:**
+
+[Intrusion Detection System with ML&DL](https://www.kaggle.com/code/essammohamed4320/intrusion-detection-system-with-ml-dl) - **Example we use in class** - **Cloud Hosted Option**
+
+[Intrusion Detection System NSL-KDD\]](https://www.kaggle.com/code/eneskosar19/intrusion-detection-system-nsl-kdd) is another - **Cloud Hosted Option**
+
+intrusion-detection-system-with-ml-dl.ipynb - **Example we use in class** - **Download Option** - Available in Workshop folder sourced from from
+
+##### Other learning resources:
+
+[PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity: Hands-On Artificial Intelligence for Cybersecurity, publised by Packt](https://github.com/PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity)
+
+[Network Traffic Anomaly Detection with Machine Learning](https://eyer.ai/blog/network-traffic-anomaly-detection-with-machine-learning/)
+
+##### Cybersecurity Datasets:
+
+[gfek/Real-CyberSecurity-Datasets: Public datasets to help you address various cyber security problems.](https://github.com/gfek/Real-CyberSecurity-Datasets)
+
+[BNN-UPC/](https://github.com/BNN-UPC/NetworkModelingDatasets)[NetworkModelingDatasets](https://github.com/BNN-UPC/NetworkModelingDatasets)[: This repository contains datasets for network modeling simulated with ](https://github.com/BNN-UPC/NetworkModelingDatasets)[OMNet](https://github.com/BNN-UPC/NetworkModelingDatasets)[++](https://github.com/BNN-UPC/NetworkModelingDatasets)
+
+[ericyoc](https://github.com/ericyoc/synthetic_network_traffic_simulation_poc)[/](https://github.com/ericyoc/synthetic_network_traffic_simulation_poc)[synthetic_network_traffic_simulation_poc](https://github.com/ericyoc/synthetic_network_traffic_simulation_poc)[: A simulation of network traffic using synthetic network traffic for 802.11, 3G GSM, 4G LTE, and 5G NR](https://github.com/ericyoc/synthetic_network_traffic_simulation_poc)
+
+Endpoint telemetry datasets
+
+[ScarredMonk](https://github.com/ScarredMonk/SysmonSimulator)[/](https://github.com/ScarredMonk/SysmonSimulator)[SysmonSimulator](https://github.com/ScarredMonk/SysmonSimulator)[: Sysmon event simulation utility which can be used to simulate the attacks to generate the Sysmon Event logs for testing the EDR detections and correlation rules by Blue teams.](https://github.com/ScarredMonk/SysmonSimulator)
+
+[tsale](https://github.com/tsale/EDR-Telemetry)[/EDR-Telemetry: This project aims to compare and evaluate the telemetry of various EDR products.](https://github.com/tsale/EDR-Telemetry)
+
+##### Beginner Friendly AI/ML Cybersecurity Models:
+
+Captchas
+
+[Captcha Solver – CNN](https://www.kaggle.com/code/matheusparracho/captcha-solver-cnn) - **Cloud Hosted Option** and its accompanying blog [Solving CAPTCHAs with Convolutional Neural Networks | by Matheus Ramos Parracho | Medium](https://medium.com/@mathparracho/solving-captchas-with-convolutional-neural-networks-89debcc65f55)
+
+[CNN CAPTCHA Solver - 97.8% Accuracy](https://www.kaggle.com/code/tommyott/cnn-captcha-solver-97-8-accuracy) - **Cloud Hosted Option** 
+
+[Solving CAPTCHAs with Convolutional Neural Networks](https://medium.com/@mathparracho/solving-captchas-with-convolutional-neural-networks-89debcc65f55)
+
+Network Threat Detection / Anomaly Detection / Intrusion Analysis
+
+[How to do Anomaly Detection using Machine Learning in Python?](https://www.projectpro.io/article/anomaly-detection-using-machine-learning-in-python-with-example/555)
+
+[Intrusion Detection System with ML&DL](https://www.kaggle.com/code/essammohamed4320/intrusion-detection-system-with-ml-dl/notebook)  - machine learning
+
+[Network Traffic Anomaly Detection](https://www.kaggle.com/code/vidhikishorwaghela/network-traffic-anomaly-detection) - deep learning model
+
+[yasakrami/Threat-Detection-in-Cyber-Security-Using-AI](https://github.com/yasakrami/Threat-Detection-in-Cyber-Security-Using-AI) Using PCAP files
+
+Spam vs Ham (and learning about unbalanced data sets)
+
+[HAM vs SPAM Email Classifier (CountVect & TF-IDF)](https://www.kaggle.com/code/jacopoferretti/ham-vs-spam-email-classifier-countvect-tf-idf)
+
+More advanced:
+
+[Algorithmic-Machine-Learning/Lecture 9+10\] Anomaly Detection in Network Traffic with K-means clustering.ipynb at master · lucabenedetto/Algorithmic-Machine-Learning](https://github.com/lucabenedetto/Algorithmic-Machine-Learning/blob/master/[Lecture 9%2B10] Anomaly Detection in Network Traffic with K-means clustering.ipynb) - indepth, covers different ways to find outliers and anomalies using supervised and unsupervised machine learning
+
+##### Language models:
+
+[llama-recipes/recipes/quickstart at main · meta-llama/llama-recipes](https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart)
+
+**Cybersecurity Domain-Specific Language Model**
+
+[SynamicTechnologies/CYBERT · Hugging Face](https://huggingface.co/SynamicTechnologies/CYBERT)
+
+[ehsanaghaei/SecureBERT: SecureBERT is a domain-specific language model to represent cybersecurity textual data.](https://github.com/ehsanaghaei/SecureBERT) and [ehsanaghaei/SecureBERT · Hugging Face](https://huggingface.co/ehsanaghaei/SecureBERT)
+
+[markusbayer/CySecBERT · Hugging Face](https://huggingface.co/markusbayer/CySecBERT)
+
+**Generative AI and LLMs for the Cybersecurity Professional:**
+
+[Prompt Engineering | Lil'Log](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - Getting started understanding prompt engineering
+
+https://microsoft.github.io/prompt-engineering/ - Prompt Engineering for Code
+
+https://github.com/promptslab/Awesome-Prompt-Engineering?tab=readme-ov-file#tools--code - Prompt Engineering
+
+https://library.easyprompt.xyz/?via=topaitools - Prompt Library
+
+https://cloud.google.com/blog/topics/threat-intelligence/ai-nist-nice-prompt-library-gemini NIST NICE Prompt Library
+
+https://github.com/Billy1900/Awesome-AI-for-cybersecurity
+
+https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt - Cybersecurity prompt library
+
+https://github.com/fr0gger/Awesome-GPT-Agents
+
+https://chatgpt.com/g/g-2DQzU5UZl-code-copilot 
+
+https://chatgpt.com/g/g-jBdvgesNC-diagrams-flowcharts-mindmaps 
+
+https://github.com/tenable/awesome-llm-cybersecurity-tools 
+
+https://github.com/JusticeRage/Gepetto <- for use with IDA Pro for malware reverse engineering assistance 
+
+https://github.com/s0md3v/SubGPT < subdomain enumeration 
+
+https://chatgpt.com/g/g-IZ6k3S4Zs-mitregpt <- MITRE ATT&CK mapping 
+
+https://github.com/Mooler0410/LLMsPracticalGuide
+
+**Anaconda and Data Science:**
+
+[An End-to-end Data Science Project with Anaconda Assistant | Anaconda](https://www.anaconda.com/blog/end-to-end-data-science-project-with-anaconda-assistant)
+
+##### Basic ML and Deep Learning Concepts:
 
 [Friendly Machine Learning: Linear Regression and Multiple Line Regression](https://www.kaggle.com/discussions/general/464589)
 
@@ -143,13 +265,15 @@ Basic ML and Deep Learning Concepts
 
 [Convolutional Neural Network | Deep Learning | Developers Breach](https://developersbreach.com/convolution-neural-network-deep-learning/)
 
-Cats and Captchas
+**Cats and Captchas**
 
 [Google's Artificial Brain Learns to Find Cat Videos | WIRED](https://www.wired.com/2012/06/google-x-neural-network/) and their officical paper [[1112.6209\] Building high-level features using large scale unsupervised learning](https://arxiv.org/abs/1112.6209)
 
 [How to Classify Photos of Dogs and Cats (with 97% accuracy) - MachineLearningMastery.com](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/)
 
 Dogs vs Cats Keras CNN image classifier.ipynb - **Download Option** - Available in Workshop folder sourced from from [Github: mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification](https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification) 
+
+[Cat & Dog Classification using Convolutional Neural Network in Python - GeeksforGeeks](https://www.geeksforgeeks.org/cat-dog-classification-using-convolutional-neural-network-in-python/#) for use with **Download Option** 
 
 [Image classification from scratch](https://keras.io/examples/vision/image_classification_from_scratch/)- **Cloud Hosted Option** 
 
@@ -159,18 +283,29 @@ Dogs vs Cats Keras CNN image classifier.ipynb - **Download Option** - Available 
 
 [Cats vs Dogs - Part 1 - 92.8% Accuracy - Binary Image Classification with Keras and Deep Learning](https://wtfleming.github.io/blog/keras-cats-vs-dogs-part-1/)
 
-[Captcha Solver – CNN](https://www.kaggle.com/code/matheusparracho/captcha-solver-cnn) - **Cloud Hosted Option** 
+[Captcha Solver – CNN](https://www.kaggle.com/code/matheusparracho/captcha-solver-cnn) - **Cloud Hosted Option** and its accompanying blog [Solving CAPTCHAs with Convolutional Neural Networks | by Matheus Ramos Parracho | Medium](https://medium.com/@mathparracho/solving-captchas-with-convolutional-neural-networks-89debcc65f55)
 
 [CNN CAPTCHA Solver - 97.8% Accuracy](https://www.kaggle.com/code/tommyott/cnn-captcha-solver-97-8-accuracy) - **Cloud Hosted Option** 
 
 [Solving CAPTCHAs with Convolutional Neural Networks](https://medium.com/@mathparracho/solving-captchas-with-convolutional-neural-networks-89debcc65f55)
 
-Word Embeddings
+**Word Embeddings**
 
 [Word Embedding Demo: Tutorial](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo/tutorial.html)
 
 [Embeddings 101: The foundation of large language models](https://datasciencedojo.com/blog/embeddings-and-llm/)
 
-RAG
+**Data Science Process**
+
+[Data Science Process: A Beginner’s Guide in Plain English](https://www.springboard.com/blog/data-science/data-science-process/)
+
+[Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
+
+[Data Science Process: 7 Steps With Comprehensive Case Study](https://www.embedded-robotics.com/data-science-process/)
+
+**RAG**
 
 [Building a RAG Application in 10 min with Claude 3 and Hugging Face | Medium](https://medium.com/@myscale/building-a-rag-application-in-10-min-with-claude-3-and-hugging-face-10caea4ea293)
+
+
+
