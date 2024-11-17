@@ -63,7 +63,7 @@ Even if you do the **Cloud Hosted** option, you will still have pre-class prepar
 
 
 
-#### Knowledge
+#### ---- Knowledge --------
 
 **This workshop does not require you to have advanced coding or mathematics skills.** 
 
@@ -83,7 +83,7 @@ My recommendations for a quick refresh on these topics if you need them:
 
 Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
 
-#### Technical Prep
+#### ------- Technical Prep ------
 
 **Download Option**
 
