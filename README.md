@@ -63,7 +63,7 @@ Even if you do the **Cloud Hosted** option, you will still have pre-class prepar
 
 
 
-#### ---- Knowledge --------
+### ---- Knowledge --------
 
 **This workshop does not require you to have advanced coding or mathematics skills.** 
 
@@ -83,7 +83,7 @@ My recommendations for a quick refresh on these topics if you need them:
 
 Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
 
-#### ------- Technical Prep ------
+### ------- Technical Prep ------
 
 **Download Option**
 
@@ -169,13 +169,13 @@ Three steps for cloud hosting, which we recommend you do ALL of these to make su
 
 intrusion-detection-system-with-ml-dl.ipynb - **Example we use in class** - **Download Option** - Available in Workshop folder sourced from from
 
-##### Other learning resources:
+### Other learning resources:
 
 [PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity: Hands-On Artificial Intelligence for Cybersecurity, publised by Packt](https://github.com/PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity)
 
 [Network Traffic Anomaly Detection with Machine Learning](https://eyer.ai/blog/network-traffic-anomaly-detection-with-machine-learning/)
 
-##### Cybersecurity Datasets:
+### Cybersecurity Datasets:
 
 [gfek/Real-CyberSecurity-Datasets: Public datasets to help you address various cyber security problems.](https://github.com/gfek/Real-CyberSecurity-Datasets)
 
@@ -189,7 +189,7 @@ Endpoint telemetry datasets
 
 [tsale](https://github.com/tsale/EDR-Telemetry)[/EDR-Telemetry: This project aims to compare and evaluate the telemetry of various EDR products.](https://github.com/tsale/EDR-Telemetry)
 
-##### Beginner Friendly AI/ML Cybersecurity Models:
+### Beginner Friendly AI/ML Cybersecurity Models:
 
 Captchas
 
@@ -217,7 +217,7 @@ More advanced:
 
 [Algorithmic-Machine-Learning/Lecture 9+10\] Anomaly Detection in Network Traffic with K-means clustering.ipynb at master · lucabenedetto/Algorithmic-Machine-Learning](https://github.com/lucabenedetto/Algorithmic-Machine-Learning/blob/master/[Lecture 9%2B10] Anomaly Detection in Network Traffic with K-means clustering.ipynb) - indepth, covers different ways to find outliers and anomalies using supervised and unsupervised machine learning
 
-##### Language models:
+### Language models:
 
 [llama-recipes/recipes/quickstart at main · meta-llama/llama-recipes](https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart)
 
@@ -265,7 +265,7 @@ https://github.com/Mooler0410/LLMsPracticalGuide
 
 [An End-to-end Data Science Project with Anaconda Assistant | Anaconda](https://www.anaconda.com/blog/end-to-end-data-science-project-with-anaconda-assistant)
 
-##### Basic ML and Deep Learning Concepts:
+### Basic ML and Deep Learning Concepts:
 
 [Friendly Machine Learning: Linear Regression and Multiple Line Regression](https://www.kaggle.com/discussions/general/464589)
 
