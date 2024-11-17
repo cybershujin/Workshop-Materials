@@ -87,7 +87,7 @@ Bonus - [Introduction to Data Science]([Introduction to Data Science](https://le
 
 **Download Option**
 
-First download this folder and save to your desktop.
+First download this folder from this github and save to your desktop.
 
 Sign up for a Kaggle Account. https://www.kaggle.com/ you will need this in order to follow along with the some of the model exploration parts of the class.
 
@@ -143,7 +143,7 @@ If you choose to download Anaconda follow these steps for install setup on a Win
 
 **Cloud Hosted Options**
 
-First download this folder and save to your desktop.
+First download this folder from this github and save to your desktop.
 
 Three steps for cloud hosting, which we recommend you do ALL of these to make sure you can use all of them.
 
