@@ -85,7 +85,7 @@ My recommendations for a quick refresh on these topics if you need them:
 
 [YouTube - Linear and Logistic Regression](https://www.youtube.com/watch?v=OCwZyYH14uw) - these are the most implemented use cases in machine learning for cybersecurity applications, because they are based on a use case where you want to **predict or classify.**
 
-Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
+Bonus - [Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science) from Anaconda
 
 ### -------- Technical Prep --------
 
