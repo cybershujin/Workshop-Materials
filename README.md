@@ -247,6 +247,8 @@ More advanced:
 
 **Generative AI and LLMs for the Cybersecurity Professional:**
 
+[Gemma for presentations and websites](https://gamma.app/) - never do another PowerPoint from scratch! You can also import your company's template
+
 [Prompt Engineering | Lil'Log](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - Getting started understanding prompt engineering
 
 https://microsoft.github.io/prompt-engineering/ - Prompt Engineering for Code
@@ -257,25 +259,25 @@ https://library.easyprompt.xyz/?via=topaitools - Prompt Library
 
 https://cloud.google.com/blog/topics/threat-intelligence/ai-nist-nice-prompt-library-gemini NIST NICE Prompt Library
 
-https://github.com/Billy1900/Awesome-AI-for-cybersecurity
+https://github.com/Billy1900/Awesome-AI-for-cybersecurity - Large Collection of AI for Cybersecurity
 
 https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt - Cybersecurity prompt library
 
-https://github.com/fr0gger/Awesome-GPT-Agents
+https://github.com/fr0gger/Awesome-GPT-Agents - Collection of GPT Agents
 
-https://chatgpt.com/g/g-2DQzU5UZl-code-copilot 
+https://chatgpt.com/g/g-2DQzU5UZl-code-copilot - Code CoPilot GPT
 
-https://chatgpt.com/g/g-jBdvgesNC-diagrams-flowcharts-mindmaps 
+https://chatgpt.com/g/g-jBdvgesNC-diagrams-flowcharts-mindmaps - Flowcharts, diagrams and mindmap generator
 
-https://github.com/tenable/awesome-llm-cybersecurity-tools 
+https://github.com/tenable/awesome-llm-cybersecurity-tools - LLM Cybersecurity Tools
 
-https://github.com/JusticeRage/Gepetto <- for use with IDA Pro for malware reverse engineering assistance 
+https://github.com/JusticeRage/Gepetto - for use with IDA Pro for malware reverse engineering assistance 
 
-https://github.com/s0md3v/SubGPT < subdomain enumeration 
+https://github.com/s0md3v/SubGPT - subdomain enumeration 
 
-https://chatgpt.com/g/g-IZ6k3S4Zs-mitregpt <- MITRE ATT&CK mapping 
+https://chatgpt.com/g/g-IZ6k3S4Zs-mitregpt - MITRE ATT&CK mapping 
 
-https://github.com/Mooler0410/LLMsPracticalGuide
+https://github.com/Mooler0410/LLMsPracticalGuide - Practical Guide to using LLMs
 
 **Anaconda and Data Science:**
 
@@ -325,7 +327,7 @@ Dogs vs Cats Keras CNN image classifier.ipynb - **Download Option** - Available 
 
 [Data Science Process: A Beginner’s Guide in Plain English](https://www.springboard.com/blog/data-science/data-science-process/)
 
-[Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
+[Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science) from Anaconda
 
 [Data Science Process: 7 Steps With Comprehensive Case Study](https://www.embedded-robotics.com/data-science-process/)
 
