@@ -63,9 +63,9 @@ Even if you do the **Cloud Hosted** option, you will still have pre-class prepar
 
 
 
-### ---- Knowledge --------
+### -------- Knowledge --------
 
-**This workshop does not require you to have advanced coding or mathematics skills.** 
+**This workshop does not require you to have advanced coding or mathematics skills. There is no requirement to attend other than a basic understanding of cybersecurity concepts.** 
 
 It is *helpful* if you have a basic understanding of **Python** and **descriptive** statics (mean, median, mode, average, and standard deviations) and the concept of **regression** (a form of inferential statics) but it is not *required* for you to benefit from the workshop. These skills WILL optimize your understanding of the hands on portion of the workshop. 
 
