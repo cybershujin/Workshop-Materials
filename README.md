@@ -219,7 +219,7 @@ Network Threat Detection / Anomaly Detection / Intrusion Analysis
 
 [How to do Anomaly Detection using Machine Learning in Python?](https://www.projectpro.io/article/anomaly-detection-using-machine-learning-in-python-with-example/555)
 
-[Intrusion Detection System with ML&DL](https://www.kaggle.com/code/essammohamed4320/intrusion-detection-system-with-ml-dl/notebook)  - machine learning
+[Intrusion Detection System with ML&DL](https://www.kaggle.com/code/essammohamed4320/intrusion-detection-system-with-ml-dl/notebook)  - machine learning and deep learning concepts (used in workshop)
 
 [Network Traffic Anomaly Detection](https://www.kaggle.com/code/vidhikishorwaghela/network-traffic-anomaly-detection) - deep learning model
 
