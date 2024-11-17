@@ -1,6 +1,6 @@
 # Workshop Materials Guide
 
-This workshop material guide is in three sections:
+### This workshop material guide is in three sections:
 
 1. **Overview** of the Workshop format
 
@@ -11,6 +11,10 @@ This workshop material guide is in three sections:
    You can still attend the workshop and benefit greatly with the option to complete those exercises on your own. However, many participants prefer to "follow along" during the workshop.
 
 3. **Resources and References** we use in the workshop, organized by section
+
+
+
+
 
 ## Overview:
 
@@ -41,6 +45,10 @@ Part 3: GenAI Applications for Cybersecurity - GenAI and LLM use cases, the good
 
 •Do *any* calculus or upper-level math
 
+
+
+
+
 ## Prerequisites and Workshop Prep Instructions
 
 Prerequisites for this workshop are in two sections: the **knowledge** that will help you make the most of the workshop and the **technical preparation** for participating in the hands-on-section of the workshop.
@@ -52,6 +60,8 @@ We do cover HuggingFace in this workshop. Realize that you with need either to h
 While the instructors recommend that you do the **Download** method, as it will allow you to build familiarity with tools you will use through your Machine Learning and AI journey and allow you to use data without putting that data in a cloud service, we provide instructions for both here. The Download method also allows you to easily take advantage of many of the github projects and Juypter Notebook referenced as part of this workshop. 
 
 Even if you do the **Cloud Hosted** option, you will still have pre-class preparation such as creating accounts on those platforms.
+
+
 
 #### Knowledge
 
@@ -67,9 +77,9 @@ My recommendations for a quick refresh on these topics if you need them:
 
 [CodeCombat](https://codecombat.com/) - This is my **absolute** favorite way to learn coding, and they recently added some AI Learning levels as well! This is a game, that is like a RPG game that is incredibly fun and practical way to learn Python, C++ or basic AI skills.
 
-[YouTube - Descriptive Statistics]([Descriptive Statistics: FULL Tutorial - Mean, Median, Mode, Variance & SD (With Examples)](https://www.youtube.com/watch?v=SplCk-t1BeA)) - mean, median, mode and standard deviations. This is helpful to understand because these concepts are often how we explore data and try to understand "normal" in order to better identify **data anomalies** which is very important to cybersecurity use cases
+[YouTube - Descriptive Statistics](https://www.youtube.com/watch?v=SplCk-t1BeA) - mean, median, mode and standard deviations. This is helpful to understand because these concepts are often how we explore data and try to understand "normal" in order to better identify **data anomalies** which is very important to cybersecurity use cases
 
-[YouTube - Linear and Logistic Regression]([Linear Regression vs Logistic Regression | Data Science Training | Edureka](https://www.youtube.com/watch?v=OCwZyYH14uw)) - these are the most implemented use cases in machine learning for cybersecurity applications, because they are based on a use case where you want to **predict or classify.**
+[YouTube - Linear and Logistic Regression](https://www.youtube.com/watch?v=OCwZyYH14uw) - these are the most implemented use cases in machine learning for cybersecurity applications, because they are based on a use case where you want to **predict or classify.**
 
 Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
 
