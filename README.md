@@ -103,13 +103,11 @@ Preferably, participants will have the following prerequisites to make the most 
 
 **Download Option**
 
-First download this folder from this github and save to your desktop.
+1. First download this folder from this github and save to your desktop.
 
-Sign up for a Kaggle Account. https://www.kaggle.com/ you will need this in order to follow along with the some of the model exploration parts of the class.
+2. Sign up for a Kaggle Account. https://www.kaggle.com/ and download the nslkdd data set for the Network Instrusion (Anomaly Detection) exercise from [NSL-KDD](https://www.kaggle.com/datasets/hassan06/nslkdd) and make sure it is in the same saved in the same workshop folder. (This becomes important when you open Juypter Lab)
 
-Download the nslkdd data set for the Network Instrusion (Anomaly Detection) exercise from [NSL-KDD](https://www.kaggle.com/datasets/hassan06/nslkdd) and make sure it is in the same saved in the same workshop folder. (This becomes important when you open Juypter Lab)
-
-Get Anaconda. You can do this two ways - download and install Anaconda https://www.anaconda.com/download 
+3. Download and install Anaconda https://www.anaconda.com/download 
 
 If you choose to download Anaconda follow these steps for install setup on a Windows Machine:
 
