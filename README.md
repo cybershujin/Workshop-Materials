@@ -98,6 +98,9 @@ Preferably, participants will have the following prerequisites to make the most 
 - ChatGPT Plus subscription ($20) and/or Claude.ai Pro or Team Plan (we will cover both of these in class)
 - Ability to reach other AI sites such as perplexity, gamma.app, HuggingFace, Keras,io and Google Colab
 
+  To prepare yourself for the hands-on portion of the class, you must choose between the **Download Option** or the **Cloud Hosted Option** instructions below.
+  Instructor generally recommends the download option, because this will best allow you to gain skills you will need to using these models with non-public data sets. However, the **Cloud Hosted Option** is a much faster setup.
+
 **Download Option**
 
 First download this folder from this github and save to your desktop.
@@ -158,18 +161,20 @@ If you choose to download Anaconda follow these steps for install setup on a Win
 
 First download this folder from this github and save to your desktop.
 
-Three steps for cloud hosting, which we recommend you do ALL of these to make sure you can use all of them.
+Three options for cloud hosting, which we recommend you do ALL of these to make sure you can use all of them with the workshop materials provided below.
 
-1. For Anaconda Cloud you go to https://nb.anaconda.cloud/ and create an account. Then go to the green circle on the left hand side “Anaconda Toolbox” and Create a New Project. This will allow you to select the files from the workshop folder from your desktop, and leave the environment location as default.
+However, there is only **two** we will go through together in the workshop - Kaggle and HuggingFace. The Ananconda Cloud and Google Colab are also options for using you could use to host the same notebooks and data and will allow you to follow along.
+
+**To follow along in the workshop** Go to kaggle.com and sign up for an account / sign in with a google account or similar identity provider. Once you have completed that, go to this link [network_intrusion_detection](https://www.kaggle.com/code/orestasdulinskas/network-intrusion-detection) and hit the "Copy & Edit" button in the upper right of the screen and make sure the environment opens.  If you are able to click the Play button that appears once your cursor is in the code box under "Data Cleaning" then you are successfully prepared to use this resource. Note, that this is a large data set you are importing, it will "Spin" a minute before you see an output in a table below it.
+
+If you wish to follow along with the HuggingFace instruction have a Google Cloud or Amazing Cloud account to deploy the model to in that step if you wish to follow along. Go to [Huggingface.co](https://huggingface.co) and sign up for an account. You will know you have met the prerequisites for this if you can go to [ehsanaghaei/SecureBERT · Hugging Face](https://huggingface.co/ehsanaghaei/SecureBERT) and click "Deploy" and select your platform.
+
+Other options which will also work with Jupyter Notebook files (primarily used in this workshop):
+For Anaconda Cloud you go to https://nb.anaconda.cloud/ and create an account. Then go to the green circle on the left hand side “Anaconda Toolbox” and Create a New Project. This will allow you to select the files from the workshop folder from your desktop, and leave the environment location as default.
 
    Quick link [Anaconda Cloud](https://anaconda.cloud/code-in-the-cloud)
 
-2. Google Colab - Use a google account and make sure you can access https://colab.research.google.com/ you can test this is working properly by visiting [Image classification from scratch](https://keras.io/examples/vision/image_classification_from_scratch/) and clicking the "View in Colab" just under the model description details. If you are able to click the Play button that appears once your cursor is in the code box under "Setup" then you are successfully prepared to use this resource.
-
-3. Go to kaggle.com and sign up for an account / sign in with a google account or similar identity provider. Once you have completed that, go to this link [network_intrusion_detection](https://www.kaggle.com/code/orestasdulinskas/network-intrusion-detection) and hit the "Copy & Edit" button in the upper right of the screen and make sure the environment opens.  If you are able to click the Play button that appears once your cursor is in the code box under "Data Cleaning" then you are successfully prepared to use this resource. Note, that this is a large data set you are importing, it will "Spin" a minute before you see an output in a table below it.
-
-4. If you wish to follow along with the HuggingFace instruction have a Google Cloud or Amazing Cloud account to deploy the model to in that step if you wish to follow along. Go to [Huggingface.co](https://huggingface.co) and sign up for an account. You will know you have met the prerequisites for this if you can go to [ehsanaghaei/SecureBERT · Hugging Face](https://huggingface.co/ehsanaghaei/SecureBERT) and click "Deploy" and select your platform.
-
+Google Colab - Use a google account and make sure you can access https://colab.research.google.com/ you can test this is working properly by visiting [Image classification from scratch](https://keras.io/examples/vision/image_classification_from_scratch/) and clicking the "View in Colab" just under the model description details. If you are able to click the Play button that appears once your cursor is in the code box under "Setup" then you are successfully prepared to use this resource.
    
 
 ## Resources and References
