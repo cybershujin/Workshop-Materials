@@ -1,5 +1,6 @@
 # Workshop Materials Guide
 
+
 ### This workshop material guide is in three sections:
 
 1. **Overview** of the Workshop format
@@ -12,15 +13,18 @@
 
 3. **Resources and References** we use in the workshop, organized by section
 
-
-
-
-
 ## Overview:
 
 This workshop is intended to help the cybersecurity professional go from **zero to hero** in Machine Learning, Deep Learning, Artificial Intelligence and Large-Language Model (LLMs), with the goal to be able to apply those computing models to solve cybersecurity challenges. 
 
 This workshop is perfect for **absolute beginners to AI/ML** or those more advanced professionals **looking for hands on instruction on how to choose use cases, models and begin training and implementation**. If you wanted to upskill your cybersecurity career with **practical, actionable skills** in machine learning and AI, this is the workshop for you. **This workshop does not require you to have advanced coding or mathematics skills.** (see the *Pre-requisites and Prep Instructions* for more detail)
+
+ Whether you're a curious beginner or a seasoned professional, this hands-on, accessible workshop will equip you with the knowledge and skills to leverage AI in your cybersecurity arsenal. No prior AI experience? No worries! We'll take you from zero to hero, ensuring everyone walks away with valuable, applicable insights. We will cover:
+"I don't know what AI, Deep Learning and Machine Learning are and at this point I'm too afraid to ask" - an introduction to the differences between these computing types and traditional expert systems
+Machine Learning Fundamentals for Cybersecurity Professionals (including a working ML model written in Python you can take away from this course)
+Large Language Models (LLMs) in Cybersecurity - Learn how to train and fine-tune LLMs for specific cybersecurity tasks and identify optimal use cases for LLMs, understanding the limitations and potential pitfalls
+Navigating the AI Minefield: Pitfalls and Best Practices - choosing the right model or type of AI for the right problem can be challenging, gain knowledge on understanding the strengths and weakness of different AI and ML applications and their cybersecurity applications. You might be surprised at the things AI is actually really bad at!
+How to take what you learned here and explore more, recommendations on where to go next to grow your knowledge
 
 **Agenda**
 
@@ -84,6 +88,15 @@ My recommendations for a quick refresh on these topics if you need them:
 Bonus - [Introduction to Data Science]([Introduction to Data Science](https://learning.anaconda.cloud/introduction-to-data-science)) from Anaconda
 
 ### -------- Technical Prep --------
+
+Preferably, participants will have the following prerequisites to make the most out of the class - but this is not required. This just allows people in class to follow along with practical, hands-on work:
+- Admin rights to install software
+- Device with at least 16 GB RAM
+- At least 200GB free space
+- NVIDIA RTX series (for optimal performance) - at least 4 GB VRAM
+- Python 3.7 or higher installed
+- ChatGPT Plus subscription ($20) and/or Claude.ai Pro or Team Plan (we will cover both of these in class)
+- Ability to reach other AI sites such as perplexity, gamma.app, HuggingFace, Keras,io and Google Colab
 
 **Download Option**
 
