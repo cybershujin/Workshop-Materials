@@ -231,7 +231,7 @@ Spam vs Ham (and learning about unbalanced data sets)
 
 More advanced:
 
-[Algorithmic-Machine-Learning/Lecture 9+10\] Anomaly Detection in Network Traffic with K-means clustering.ipynb at master · lucabenedetto/Algorithmic-Machine-Learning](https://github.com/lucabenedetto/Algorithmic-Machine-Learning/blob/master/[Lecture 9%2B10] Anomaly Detection in Network Traffic with K-means clustering.ipynb) - indepth, covers different ways to find outliers and anomalies using supervised and unsupervised machine learning
+[Anomaly Detection in Network Traffic with K-means clustering.ipynb at master · lucabenedetto/Algorithmic-Machine-Learning](https://github.com/lucabenedetto/Algorithmic-Machine-Learning/blob/master/[Lecture 9%2B10] Anomaly Detection in Network Traffic with K-means clustering.ipynb) - indepth, covers different ways to find outliers and anomalies using supervised and unsupervised machine learning
 
 ### Language models:
 
