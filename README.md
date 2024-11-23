@@ -13,7 +13,7 @@
 
 3. **Resources and References** we use in the workshop, organized by section
 
-## - Overview:
+## Overview:
 
 This workshop is intended to help the cybersecurity professional go from **zero to hero** in Machine Learning, Deep Learning, Artificial Intelligence and Large-Language Model (LLMs), with the goal to be able to apply those computing models to solve cybersecurity challenges. 
 
