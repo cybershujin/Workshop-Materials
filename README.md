@@ -191,6 +191,8 @@ intrusion-detection-system-with-ml-dl.ipynb - **Example we use in class** - **Do
 
 [Network Traffic Anomaly Detection with Machine Learning](https://eyer.ai/blog/network-traffic-anomaly-detection-with-machine-learning/)
 
+[Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
+
 ### Cybersecurity Datasets:
 
 [gfek/Real-CyberSecurity-Datasets: Public datasets to help you address various cyber security problems.](https://github.com/gfek/Real-CyberSecurity-Datasets)
