@@ -1,5 +1,6 @@
 # Workshop Materials Guide
 
+Please help us improve by taking [this survey](https://forms.gle/xfKLxChwdfbo5H6p8) after the workshop!
 
 ### This workshop material guide is in three sections:
 
