@@ -194,6 +194,25 @@ intrusion-detection-system-with-ml-dl.ipynb - **Example we use in class** - **Do
 
 [Papers With Code](https://paperswithcode.com/methods/category/convolutional-neural-networks)
 
+## Claude Model Context Protocol 
+
+Sort of API, sort of Agentish
+[Getting Started Using Model Context](https://modelcontextprotocol.io/introduction)
+
+Example Prompt for Cybersecurity: 
+
+We are building a security tool today. It will support accidental data discovery program, by indentifying instances of accidentally exposed data in likely places.
+
+The system will be modular, and each "likely place" will be a plugin. For start, we will want plugins for elasticsearch, monogdb, and ftp.
+
+The inputs will come from outside the system (hostname/ip address).
+
+Each plugin will consume one input at a time, and return the output (exposed or not, and if exposed, metadata about the exposure). Metadata will mean different things in different contexts. For example, in the elasticsearch instance, exposure would mean that there are indexes which can be read without authentication. The metadata would be the name of those indexes and the number of documents present therein. For FTP metadata might mean a recursive directory listing.
+
+Outputs of modules should be in a standardized format. 
+Create a directory for the project, show me the architecture plan.
+
+
 ### Cybersecurity Datasets:
 
 [gfek/Real-CyberSecurity-Datasets: Public datasets to help you address various cyber security problems.](https://github.com/gfek/Real-CyberSecurity-Datasets)
